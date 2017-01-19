@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Affection" "base:Relation" "base:Position" "base:Quantity" "base:Place" "base:Time" "base:Action" "base:Condition" "base:Substance" "base:Category" "base:Quality" ; /*classes style*/
+	"base:Place" -> "base:Category" [ label = "rdfs:subClassOf" ];
+	"base:Condition" -> "base:Category" [ label = "rdfs:subClassOf" ];
+	"base:Position" -> "base:Category" [ label = "rdfs:subClassOf" ];
+	"base:Affection" -> "base:Category" [ label = "rdfs:subClassOf" ];
+	"base:Substance" -> "base:Category" [ label = "rdfs:subClassOf" ];
+	"base:Action" -> "base:Category" [ label = "rdfs:subClassOf" ];
+	"base:Relation" -> "base:Category" [ label = "rdfs:subClassOf" ];
+	"base:Quality" -> "base:Category" [ label = "rdfs:subClassOf" ];
+	"base:Time" -> "base:Category" [ label = "rdfs:subClassOf" ];
+	"base:Quantity" -> "base:Category" [ label = "rdfs:subClassOf" ];
+
+}

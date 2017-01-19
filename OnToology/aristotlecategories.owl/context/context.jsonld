@@ -1,0 +1,37 @@
+{
+  "@context" : {
+    "Affection" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Affection"
+    },
+    "Category" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Category"
+    },
+    "Relation" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Relation"
+    },
+    "Quality" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Quality"
+    },
+    "Quantity" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Quantity"
+    },
+    "Place" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Place"
+    },
+    "Position" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Position"
+    },
+    "Condition" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Condition"
+    },
+    "Action" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Action"
+    },
+    "Substance" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Substance"
+    },
+    "Time" : {
+      "@id" : "http://www.semanticweb.org/admin/ontologies/2017/0/untitled-ontology-28#Time"
+    }
+  }
+}
